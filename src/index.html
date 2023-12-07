@@ -1,0 +1,380 @@
+<!--
+  Hello!
+  -
+  Simplefolio is a clean and responsive portfolio template for Developers!
+  Created by Jacobo Martinez.
+  -
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
+  -
+  For business & inquires, contact me -> jacobojavier98@gmail.com
+-->
+<!DOCTYPE html>
+<html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+
+    <!-- Todo: put here your site title -->
+    <title>Pramodh Muppalla Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="[Your name here] | Developer" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
+
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
+
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
+
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Pramodh Muppalla</span>
+          <br />
+          I'm the Developer you need.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Hire me</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
+
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                Greetings! I'm a dedicated and passionate web developer fueled
+                by a relentless curiosity for crafting digital experiences. With
+                a strong foundation in both front-end and back-end technologies,
+                I thrive on bringing creative ideas to life in the digital
+                realm.
+              </p>
+              <p class="about-wrapper__info-text">
+                My journey into the world of web development began with a
+                fascination for the intersection of technology and creativity.
+                Over the years, I have honed my skills in HTML, CSS, JavaScript,
+                and various frameworks, allowing me to build dynamic and
+                responsive websites that not only meet but exceed expectations
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="assets/resume.pdf"
+                >
+                  View Resume
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /END About Section -->
+
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Robo Friends</h3>
+                <div>
+                  <p class="mb-4">
+                    Welcome to RoboFriends, a one-of-a-kind project where
+                    friendship meets technology! In the fascinating world of
+                    RoboFriends, you have the unique opportunity to befriend a
+                    diverse array of robots, each with its own distinctive
+                    personality and set of skills.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://aneagoie.github.io/robofriends/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pramodh-2002/robofriends"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  Background Generator
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    A sophisticated project designed to simplify the process of
+                    creating visually stunning background gradients for your web
+                    projects. With its user-friendly interface and seamless
+                    copy-paste integration, GradientCraft empowers developers
+                    and designers to effortlessly generate and implement linear
+                    gradient backgrounds by directly copying the generated code
+                    into their preferred code editor.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://pramodh-2002.github.io/Background-Generator/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/Pramodh-2002/Background-Generator"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project1.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Virtual Mouse</h3>
+                <div>
+                  <p class="mb-4">
+                    Imagine a world where your hand movements effortlessly
+                    translate into precise cursor control, clicks, and gestures,
+                    providing a more immersive and ergonomic computing
+                    experience. Gesture Mouse transforms any display into an
+                    interactive canvas, allowing users to navigate, select, and
+                    manipulate digital elements with a simple wave or pinch of
+                    their hands.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="#!"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="#!"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project2.jpg"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+        </div>
+      </div>
+    </section>
+    <!-- /END Projects Section -->
+
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <p class="contact-wrapper__text">Feel Free To mail me</p>
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:pramodhmuppala4610@gmail.com"
+            >pramodhmuppala4610@gmail.com</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- /END Contact Section -->
+
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
+        </a>
+        <div class="social-links">
+          <a
+            rel="noreferrer"
+            href="https://www.instagram.com/pramodh.____.333/"
+            target="_blank"
+          >
+            <i class="fa fa-instagram fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/pramodh-kumar-muppalla-877a90239/"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://github.com/Pramodh-2002"
+            target="_blank"
+          >
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2023 - Template developed by
+          <a
+            rel="noreferrer"
+            href="https://github.com/Pramodh-2002"
+            target="_blank"
+            >Pramodh Muppalla</a
+          >
+        </p>
+
+        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
+        <!-- <p class="mt-3 pt-3">
+          <a
+            rel="noreferrer"
+            class="github-button"
+            href="https://github.com/cobidev/simplefolio/fork"
+            data-icon="octicon-repo-forked"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Fork ntkme/github-buttons on GitHub"
+            >Fork</a
+          > -->
+        <!-- <a
+            rel="noreferrer"
+            class="github-button"
+            href="https://github.com/cobidev/simplefolio"
+            data-icon="octicon-star"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star cobidev/simplefolio on GitHub"
+            >Star</a
+          >
+        </p> -->
+      </div>
+    </footer>
+    <!-- /END Footer Section -->
+
+    <script defer type="module" src="index.js"></script>
+  </body>
+</html>
